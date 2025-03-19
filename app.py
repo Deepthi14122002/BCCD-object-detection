@@ -1,3 +1,7 @@
+import os
+os.system('pip install ultralytics')
+from ultralytics import YOLO
+
 import streamlit as st
 from PIL import Image
 from ultralytics import YOLO
