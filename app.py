@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the trained YOLO model from the models folder
-MODEL_PATH = 'models/best.pt'
+MODEL_PATH = 'best.torchscript'
 model = YOLO(MODEL_PATH)
 
 # Streamlit App Title
